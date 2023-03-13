@@ -1,20 +1,20 @@
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
-import React from "react";
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Link from 'next/link'
+import React from 'react'
 
 export default function NavBar() {
   return (
     <nav className=" bg-white font-semibold flex h-auto w-full absolute  left-[0]">
-      <div className="flex items-center font-semibold bg-white flex-wrap justify-between w-full text-black ml-auto mr-auto pl-[0.75rem] pr-[0.75rem]">
+      <div className="flex items-center font-semibold bg-white flex-wrap justify-between w-full text-black ml-auto mr-auto pl-[0.75rem] pr-[0.75rem] w-4/5">
         <Link
           href="/"
           title="MUHAMMAD AHSAN RIAZ"
-          className=" flex items-center font-semibold self-stretch text-md "
+          className=" flex items-center font-semibold self-stretch leading-12"
         >
           MUHAMMAD AHSAN RIAZ
         </Link>
-        <div className=" font-thin ">
+        <div className=" font-thin ml-auto mr-[0.5rem]">
           <FontAwesomeIcon icon={faPhone} />
           <span>(+92) 3040553943</span>
         </div>
@@ -26,5 +26,5 @@ export default function NavBar() {
         <div></div>
       </div>
     </nav>
-  );
+  )
 }
