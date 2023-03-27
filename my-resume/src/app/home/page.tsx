@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <section id="home" className="min-h-screen py-[3rem] w-full bg-c1 ">
-      <div className=" w-[80%]  mr-auto ml-auto py-[1.5rem] px-[1.5rem]">
+      <div className="container">
         <div className="flex w-full h-screen items-center">
           <div className=" col-span-7 visible text-left order-0 self-center  w-full">
             <h1 className=" font-light text-5xl leading-[1.3]">
@@ -58,7 +58,7 @@ export default function HomePage() {
         </div>
       </div>
       <Link
-        href={"#about"}
+        href="#about"
         scroll={true}
         className=" cursor-pointer relative bottom-1/4 h-[32px] text-xl left-[50%] w-[32px]"
       >
