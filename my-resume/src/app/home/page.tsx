@@ -59,6 +59,7 @@ export default function HomePage() {
       </div>
       <Link
         href={"#about"}
+        scroll={true}
         className=" cursor-pointer relative bottom-1/4 h-[32px] text-xl left-[50%] w-[32px]"
       >
         <FontAwesomeIcon icon={faArrowDown} className="origin-center" />
