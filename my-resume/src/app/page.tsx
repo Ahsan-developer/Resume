@@ -9,6 +9,7 @@ import ResumePage from "./resume/page";
 import PortfolioPage from "./portfolio/page";
 import ClientSpeakPage from "./clientspeak/page";
 import ContactPage from "./contact/page";
+import Footer from "@/components/common/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,7 @@ export default function Home() {
         <ClientSpeakPage />
         <ContactPage />
       </div>
-      <footer id="footer"></footer>
+      <Footer />
     </main>
   );
 }

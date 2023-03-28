@@ -39,9 +39,9 @@ export default function PortfolioPage() {
                   className="w-full h-auto block box-border"
                   src="project-1.jpg"
                 />
-                <div className="flex absolute w-full left-0 top-0 right-0 bottom-0 text-center">
+                <div className="flex  absolute w-full inset-[0] text-center">
                   <button className="cursor-pointer inset-0 p-0 border-0 m-0 w-full h-full"></button>
-                  <div className="absolute inset-0 bg-black opacity-50 flex flex-col items-center justify-center">
+                  <div className="absolute bg-black opacity-50 flex flex-col items-center justify-center">
                     <p className="text-c1 text-2xl mb-1 mt-0">
                       Project Details
                     </p>
