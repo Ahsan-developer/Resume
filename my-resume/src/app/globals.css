@@ -4,6 +4,6 @@
 
 @layer components {
   .container {
-    @apply w-[80%]  mr-auto ml-auto py-[1.5rem] px-[1.5rem];
+    @apply w-[70%]  mr-auto ml-auto py-[1.5rem] px-[1.5rem];
   }
 }

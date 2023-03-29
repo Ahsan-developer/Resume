@@ -6,8 +6,8 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <nav className=" bg-white font-semibold flex h-auto w-full absolute  left-[0]">
-      <div className="flex items-center font-semibold bg-white flex-wrap justify-between text-black ml-auto mr-auto pl-[0.75rem] pr-[0.75rem] w-4/5">
+    <nav className=" bg-white font-semibold flex h-auto w-full   left-[0] fixed">
+      <div className="flex items-center font-semibold bg-white flex-wrap justify-between text-black ml-auto mr-auto pl-[0.75rem] pr-[0.75rem] w-[70%]">
         <Link
           href="/"
           title={personalInfoData.name}

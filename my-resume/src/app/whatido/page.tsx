@@ -8,7 +8,7 @@ import React from "react";
 export default function ServicesPage() {
   return (
     <section id="services" className="relative p-[6.5rem] box-border">
-      <div>
+      <div className="container">
         <SectionTitle
           name="What I DO?"
           desp="How I can help your next project"

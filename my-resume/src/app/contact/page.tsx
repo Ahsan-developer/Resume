@@ -1,10 +1,13 @@
+"use client";
+import EstimateForm from "@/components/common/estimateForm";
+import Link from "next/link";
 import React from "react";
 
 export default function ContactPage() {
   return (
     <section id="contact" className=" bg-c1">
       <div className="container">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 my-[4rem] ">
           <div className="text-left">
             <h2 className=" font-bold text-4xl mb-[3rem]">
               Let's get in touch
@@ -26,13 +29,20 @@ export default function ContactPage() {
             </p>
             <ul className="">
               <li className="social-icons-twitter">
-                <a
+                <Link
+                  href="#about"
+                  scroll={true}
+                  className=" cursor-pointer relative bottom-1/4 h-[32px] text-xl left-[50%] w-[32px]"
+                >
+                  {/* <FontAwesomeIcon icon={faTwitter} className="origin-center" /> */}
+                </Link>
+                {/* <a
                   href="https://twitter.com/harnishdesign/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-twitter"></i>
-                </a>
+                </a> */}
               </li>
               <li className="social-icons-facebook">
                 <a
@@ -72,10 +82,15 @@ export default function ContactPage() {
               </li>
             </ul>
           </div>
-          <div className="text-right">
-            <h2 className=" font-bold text-4xl mb-[3rem]">
+          <div className="ml-[5rem]">
+            <h2 className=" font-bold text-4xl mb-[3rem] ">
               Estimate your Project?
             </h2>
+            <EstimateForm
+              submitCallback={() => {
+                alert("submited your request sucessfully");
+              }}
+            />
           </div>
         </div>
       </div>

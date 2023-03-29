@@ -8,7 +8,7 @@ export default function AboutPage() {
       id="about"
       className=" overflow-hidden py-[6.5rem] relative w-full"
     >
-      <div className="w-[80%]  mr-auto ml-auto py-[1.5rem] px-[1.5rem]">
+      <div className="container">
         <SectionTitle name="About Me" desp="Know Me More" />
         <div className="flex  box-border w-full">
           <div className="w-[70%] px-[12px] visible text-left  block">
