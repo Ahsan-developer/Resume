@@ -10,6 +10,8 @@ import PortfolioPage from "./portfolio/page";
 import ClientSpeakPage from "./clientspeak/page";
 import ContactPage from "./contact/page";
 import Footer from "@/components/common/footer";
+import HeroWrap from "@/components/heroWrap";
+import FaqPage from "./faq/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +27,8 @@ export default function Home() {
         <ServicesPage />
         <ResumePage />
         <PortfolioPage />
+        <HeroWrap />
+        <FaqPage />
         <ClientSpeakPage />
         <ContactPage />
       </div>

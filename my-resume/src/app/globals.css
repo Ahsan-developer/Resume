@@ -7,3 +7,6 @@
     @apply w-[70%]  mr-auto ml-auto py-[1.5rem] px-[1.5rem];
   }
 }
+#contact-input input:-webkit-autofill:focus {
+  background-color: transparent; /* replace with your desired color */
+}

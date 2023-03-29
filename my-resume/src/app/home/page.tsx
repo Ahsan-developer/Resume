@@ -1,3 +1,4 @@
+"use client";
 import {
   faArrowAltCircleDown,
   faArrowDown,
@@ -5,9 +6,20 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
 
 export default function HomePage() {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    // first prevent the default behavior
+    e.preventDefault();
+    // get the href and remove everything before the hash (#)
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    // get the element by id and use scrollIntoView
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
     <section id="home" className="min-h-screen py-[3rem] w-full bg-c1 ">
       <div className="container">
@@ -59,8 +71,8 @@ export default function HomePage() {
       </div>
       <Link
         href="#about"
-        scroll={true}
         className=" cursor-pointer relative bottom-1/4 h-[32px] text-xl left-[50%] w-[32px]"
+        onClick={(e) => handleScroll(e)}
       >
         <FontAwesomeIcon icon={faArrowDown} className="origin-center" />
       </Link>

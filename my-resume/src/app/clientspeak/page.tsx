@@ -11,7 +11,7 @@ export default function ClientSpeakPage() {
         desp={"What Some of my Clients Say"}
       />
       <div className="container">
-        <div className="h-[350px] px-[5rem]">
+        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 ">
           <Carousel slide={false}>
             <div>
               <div
