@@ -59,7 +59,7 @@ export default function HomePage() {
             <div></div>
           </div>
           <div className="col-span-5 flex self-center mt-[0] pl-[0.75rem] pr-[12px] max-w-full">
-            <div className=" visible rounded-full w-full p-[1rem] inline-block">
+            <div className=" visible rounded-full w-full p-[1rem] inline-block " style={{transform:`rotateY(-180deg)`}}>
               <img
                 className="rounded-full w-auto h-auto block border-[14px] border-white"
                 alt="Muhammad Ahsan Riaz"

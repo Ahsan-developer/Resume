@@ -14,7 +14,7 @@ export default function FaqPage() {
               desp={"Have any questions?"}
               align="left"
             />
-            <Accordion>
+            <Accordion collapseAll={true}>
               <Accordion.Panel>
                 <Accordion.Title>What is Flowbite?</Accordion.Title>
                 <Accordion.Content>

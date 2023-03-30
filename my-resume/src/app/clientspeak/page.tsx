@@ -9,6 +9,7 @@ export default function ClientSpeakPage() {
       <SectionTitle
         name={"Client Speak"}
         desp={"What Some of my Clients Say"}
+        color="white"
       />
       <div className="container">
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 ">

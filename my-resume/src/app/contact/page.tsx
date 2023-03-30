@@ -1,5 +1,13 @@
 "use client";
 import EstimateForm from "@/components/common/estimateForm";
+import SocialIcons from "@/components/common/socialIcons";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
 
@@ -27,60 +35,7 @@ export default function ContactPage() {
             <p className="mb-[1rem] text-[1.125rem]">
               <a href="tel:+923040553943">(+92) 304 055 3943</a>
             </p>
-            <ul className="">
-              <li className="social-icons-twitter">
-                <Link
-                  href="#about"
-                  scroll={true}
-                  className=" cursor-pointer relative bottom-1/4 h-[32px] text-xl left-[50%] w-[32px]"
-                >
-                  {/* <FontAwesomeIcon icon={faTwitter} className="origin-center" /> */}
-                </Link>
-                {/* <a
-                  href="https://twitter.com/harnishdesign/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-twitter"></i>
-                </a> */}
-              </li>
-              <li className="social-icons-facebook">
-                <a
-                  href="http://www.facebook.com/harnishdesign/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-facebook"></i>
-                </a>
-              </li>
-              <li className="social-icons-instagram">
-                <a
-                  href="http://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li className="social-icons-github">
-                <a
-                  href="http://www.github.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-              </li>
-              <li className="social-icons-dribbble">
-                <a
-                  href="http://www.dribbble.com/harnishdesign/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-dribbble"></i>
-                </a>
-              </li>
-            </ul>
+            <SocialIcons />
           </div>
           <div className="ml-[5rem]">
             <h2 className=" font-bold text-4xl mb-[3rem] ">
