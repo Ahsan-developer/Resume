@@ -6,6 +6,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
+import {Typewriter} from 'react-simple-typewriter'
 
 export default function HomePage() {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -26,13 +27,16 @@ export default function HomePage() {
         <div className="flex w-full h-screen items-center">
           <div className=" col-span-7 visible text-left order-0 self-center  w-full">
             <h1 className=" font-light text-5xl leading-[1.3]">
-              Hi, I'm a Freelancer
+              Hi, I'm A FREELANCER
             </h1>
             <h2 className=" font-semibold uppercase leading-[1.3] text-8xl">
-              <div>
-                <span>Developer</span>
-                <span></span>
-              </div>
+              {/* <div >
+                <Typewriter 
+                words={["Developer","Engineer","Designer"]}
+                 loop={false} 
+                cursor
+            cursorStyle='|' />
+              </div> */}
             </h2>
             <p className=" text-lg leading-[1.8] mb-[1rem]">
               based in Islamabad, Pakistan.

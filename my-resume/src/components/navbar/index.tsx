@@ -21,8 +21,8 @@ export default function NavBar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className=" bg-white drop-shadow-md font-semibold z-50 flex h-auto w-full   left-[0] fixed">
-      <div className="flex items-center font-semibold bg-white flex-wrap justify-between text-black ml-auto mr-auto pl-[0.75rem] pr-[0.75rem] w-[70%]">
+    <nav className=" bg-white drop-shadow-md font-semibold z-50 flex h-auto w-full left-[0] fixed">
+      <div className="flex items-center font-semibold bg-white flex-wrap justify-between text-black ml-auto mr-auto pl-[0.75rem] pr-[0.75rem] w-[80%] xsm:w-[100%] xsm:pl-0 xsm:pr-0">
         <Link
           href="/"
           title={personalInfoData.name}
