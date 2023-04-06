@@ -89,7 +89,7 @@ export default function SkillCard({}: Props) {
     <div className="grid grid-cols-3">
       {skillData.map((skill, index) => {
         return (
-          <div className=" mt-[3rem] font-normal px-[12px]">
+          <div className=" mt-[3rem] font-normal px-[12px]" key={`sc-${index}`}>
             <div className="relative px-[1.5rem] text-center ">
               <div className=" text-c1">{skill.icon}</div>
               <h3 className=" font-semibold text-2xl mb-[1rem]">

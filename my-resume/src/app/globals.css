@@ -4,7 +4,7 @@
 
 @layer components {
   .container {
-    @apply w-[70%]  mr-auto ml-auto py-[1.5rem] px-[1.5rem];
+    @apply w-[90%]  mr-auto ml-auto py-[1.5rem] px-[1.5rem];
   }
 }
 #contact-input input:-webkit-autofill:focus {

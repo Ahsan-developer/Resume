@@ -1,14 +1,15 @@
-"use client";
-import SectionTitle from "@/components/common/sectionTitle";
-import { Carousel } from "flowbite-react";
-import React from "react";
+'use client'
+import SectionTitle from '@/components/common/sectionTitle'
+import { Carousel } from 'flowbite-react'
+import React from 'react'
+import Image from 'next/image'
 
 export default function ClientSpeakPage() {
   return (
     <section id="testimonial" className="bg-gray-100 py-[6.5rem] ">
       <SectionTitle
-        name={"Client Speak"}
-        desp={"What Some of my Clients Say"}
+        name={'Client Speak'}
+        desp={'What Some of my Clients Say'}
         color="white"
       />
       <div className="container">
@@ -18,14 +19,12 @@ export default function ClientSpeakPage() {
               <div
                 className=" text-center px-[12rem] box-border"
                 tabIndex={-1}
-                style={{ width: "100%", display: "inlineBlock" }}
+                style={{ width: '100%', display: 'inlineBlock' }}
               >
                 <p className="text-[1.3125rem] mb-[1rem]  text-center text-white">
-                  {" "}
-                  “I am happy Working with printing and typesetting industry.
-                  Quidam lisque persius interesset his et, in quot quidam
-                  persequeris essent possim iriure. simply dummy text of the
-                  printing and typesetting industry.”
+                  {
+                    'I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure. simply dummy text of the printing and typesetting industry.'
+                  }
                 </p>
                 <div>
                   <img
@@ -35,23 +34,21 @@ export default function ClientSpeakPage() {
                   />
                 </div>
                 <strong className="d-block text-3 fw-600 text-white">
-                  Patrick Cary
+                  {'Patrick Cary'}
                 </strong>
-                <span className="text-light">Freelancer from USA</span>
+                <span className="text-light">{'Freelancer from USA'}</span>
               </div>
             </div>
             <div>
               <div
                 className=" text-center px-[12rem] box-border"
                 tabIndex={-1}
-                style={{ width: "100%", display: "inlineBlock" }}
+                style={{ width: '100%', display: 'inlineBlock' }}
               >
                 <p className="text-[1.3125rem] mb-[1rem]  text-center text-white">
-                  {" "}
-                  “I am happy Working with printing and typesetting industry.
-                  Quidam lisque persius interesset his et, in quot quidam
-                  persequeris essent possim iriure. simply dummy text of the
-                  printing and typesetting industry.”
+                  {
+                    'I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure. simply dummy text of the printing and typesetting industry.'
+                  }
                 </p>
                 <div>
                   <img
@@ -61,23 +58,21 @@ export default function ClientSpeakPage() {
                   />
                 </div>
                 <strong className="d-block text-3 fw-600 text-white">
-                  Patrick Cary
+                  {'Patrick Cary'}
                 </strong>
-                <span className="text-light">Freelancer from USA</span>
+                <span className="text-light">{'Freelancer from USA'}</span>
               </div>
             </div>
             <div>
               <div
                 className=" text-center px-[12rem] box-border"
                 tabIndex={-1}
-                style={{ width: "100%", display: "inlineBlock" }}
+                style={{ width: '100%', display: 'inlineBlock' }}
               >
                 <p className="text-[1.3125rem] mb-[1rem]  text-center text-white">
-                  {" "}
-                  “I am happy Working with printing and typesetting industry.
-                  Quidam lisque persius interesset his et, in quot quidam
-                  persequeris essent possim iriure. simply dummy text of the
-                  printing and typesetting industry.”
+                  {
+                    'I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure. simply dummy text of the printing and typesetting industry.'
+                  }
                 </p>
                 <div>
                   <img
@@ -87,14 +82,14 @@ export default function ClientSpeakPage() {
                   />
                 </div>
                 <strong className="d-block text-3 fw-600 text-white">
-                  Patrick Cary
+                  {'Patrick Cary'}
                 </strong>
-                <span className="text-light">Freelancer from USA</span>
+                <span className="text-light">{'Freelancer from USA'}</span>
               </div>
             </div>
           </Carousel>
         </div>
       </div>
     </section>
-  );
+  )
 }
